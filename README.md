@@ -113,4 +113,4 @@ In line with the module's **"5: Full AI"** category, I used an AI assistant (Cla
 
 ## 10. Author
 
-Sanithi Dissanayke , 200250795,CM2604 - Machine Learning (IIT) - Semester 1
+Sanithi Dissanayake , 20250795,CM2604 - Machine Learning (IIT) - Semester 1
