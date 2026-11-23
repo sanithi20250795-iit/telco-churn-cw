@@ -98,7 +98,18 @@ Full discussion is in section 8 of the notebook and in the report.
 
 ## 9. Use of AI assistance
 
-AI assistance (Claude) was used to help plan the workflow and draft code and text, in line with the module's "5: Full AI" category. [Edit this sentence to describe honestly what you did yourself.] All code was run, checked and understood by the author.
+In line with the module's **"5: Full AI"** category, I used an AI assistant (Claude, by Anthropic) while working on this coursework.
+
+**How AI was used:**
+- Explaining the coursework brief and planning the workflow.
+- Suggesting the structure of the notebook and drafting code for the preprocessing pipeline, model training, hyperparameter tuning and evaluation.
+- Drafting explanatory text for the notebook and README, and helping me understand the concepts (data leakage, cross-validation, evaluation metrics).
+
+**What I did myself:**
+- Ran all code in Google Colab and checked the outputs.
+- Ran the exploratory analysis and checked that every figure quoted in the notebook and report matches my own outputs.
+- Corrected and adapted the code and text, and managed the project through Git.
+- Wrote the final report and can explain every part of the code and results.
 
 ## 10. Author
 
