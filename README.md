@@ -102,4 +102,4 @@ AI assistance (Claude) was used to help plan the workflow and draft code and tex
 
 ## 10. Author
 
-[Your name], [student ID], [module name and code]
+Sanithi Dissanayke , 200250795,CM2604 - Machine Learning (IIT) - Semester 1
