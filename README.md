@@ -10,7 +10,7 @@ Binary classification coursework: predict whether a telecom customer will **chur
 - **Source:** [Kaggle: blastchar/telco-customer-churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - **Size:** 7,043 customers, 21 columns (demographics, services, contract and billing information, and the target `Churn`)
 - **Class balance:** 73.5% stayed, 26.5% churned (imbalanced)
-- A copy of the file is in [`data/`](data/WA_Fn-UseC_-Telco-Customer-Churn.csv).
+- A copy of the file is in [`data/`](data/Telco-Customer-Churn.csv). It is the Kaggle file, renamed from `WA_Fn-UseC_-Telco-Customer-Churn.csv` to `Telco-Customer-Churn.csv` so that the file name matches the notebook.
 
 ## 2. Repository structure
 
@@ -18,7 +18,7 @@ Binary classification coursework: predict whether a telecom customer will **chur
 telco-churn-cw/
 ├── churn_prediction.ipynb                 # full workflow: EDA, preprocessing, models, evaluation, ethics
 ├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   └── Telco-Customer-Churn.csv
 ├── model_results.csv                      # metrics table produced by the notebook
 ├── requirements.txt
 └── README.md
@@ -28,9 +28,12 @@ telco-churn-cw/
 
 **Option A: Google Colab (recommended)**
 1. Click the **Open in Colab** badge above.
-2. Choose **Runtime -> Run all**.
-3. When the upload button appears in the first code cell, select `data/WA_Fn-UseC_-Telco-Customer-Churn.csv` (download it from this repository first).
-4. The grid search takes a few minutes. Results are reproducible (`random_state=42`).
+2. Download `data/Telco-Customer-Churn.csv` from this repository to your computer.
+3. In Colab, click the **folder icon** on the left, then the **upload icon**, and select `Telco-Customer-Churn.csv`. (The file must keep exactly this name.)
+4. Choose **Runtime -> Run all**. The data-loading cell reads the file with `df = pd.read_csv("Telco-Customer-Churn.csv")`.
+5. The grid search takes a few minutes. Results are reproducible (`random_state=42`).
+
+Note: files uploaded to Colab are deleted when the runtime disconnects, so repeat step 3 in a new session.
 
 **Option B: locally**
 ```bash
@@ -39,7 +42,7 @@ cd telco-churn-cw
 pip install -r requirements.txt jupyter
 jupyter notebook churn_prediction.ipynb
 ```
-For a local run, replace the `files.upload()` lines in the first code cell with `df = pd.read_csv("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")` (the `google.colab` module only exists in Colab).
+For a local run, change the data-loading line in the notebook to `df = pd.read_csv("data/Telco-Customer-Churn.csv")` so that it points to the file inside the `data/` folder.
 
 ## 4. Methodology
 
@@ -113,4 +116,4 @@ In line with the module's **"5: Full AI"** category, I used an AI assistant (Cla
 
 ## 10. Author
 
-Sanithi Dissanayake , 20250795,CM2604 - Machine Learning (IIT) - Semester 1
+Sanithi Dissanayake, 20250795, CM2604 - Machine Learning (IIT) - Semester 1
